@@ -52,10 +52,10 @@ Projeto acadêmico desenvolvido com o objetivo de praticar HTML, CSS, JavaScript
 ## 🌐 Acesse Online
 
 🔗 **Projeto publicado no Netlify:**  
-[https://seu-projeto.netlify.app](https://seu-projeto.netlify.app)
+[https://zodiacooo.netlify.app/](https://zodiacooo.netlify.app/)
 
 📇 **Desenvolvido por:**  
-[Evelyn no LinkedIn](https://www.linkedin.com/in/seu-perfil)
+[Evelyn no LinkedIn](www.linkedin.com/in/evelyn-samantha-fernandes-de-souza)
 
 ---
 
