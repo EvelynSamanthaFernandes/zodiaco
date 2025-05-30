@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<signos>
+  <signo>
+    <nome>Áries</nome>
+    <inicio>03-21</inicio>
+    <fim>04-19</fim>
+    <descricao>Corajoso, impulsivo e cheio de energia, Áries é o líder nato do zodíaco.</descricao>
+  </signo>
+  <signo>
+    <nome>Touro</nome>
+    <inicio>04-20</inicio>
+    <fim>05-20</fim>
+    <descricao>Touro é confiável, paciente e adora conforto e segurança.</descricao>
+  </signo>
+  <signo>
+    <nome>Gêmeos</nome>
+    <inicio>05-21</inicio>
+    <fim>06-20</fim>
+    <descricao>Comunicativo e versátil, Gêmeos está sempre em busca de novidade.</descricao>
+  </signo>
+  <signo>
+    <nome>Câncer</nome>
+    <inicio>06-21</inicio>
+    <fim>07-22</fim>
+    <descricao>Emotivo e protetor, Câncer valoriza muito a família e os sentimentos.</descricao>
+  </signo>
+  <signo>
+    <nome>Leão</nome>
+    <inicio>07-23</inicio>
+    <fim>08-22</fim>
+    <descricao>Leão é confiante, carismático e adora estar no centro das atenções.</descricao>
+  </signo>
+  <signo>
+    <nome>Virgem</nome>
+    <inicio>08-23</inicio>
+    <fim>09-22</fim>
+    <descricao>Detalhista, prático e perfeccionista, Virgem gosta de tudo bem feito.</descricao>
+  </signo>
+  <signo>
+    <nome>Libra</nome>
+    <inicio>09-23</inicio>
+    <fim>10-22</fim>
+    <descricao>Libra busca harmonia, beleza e justiça em tudo o que faz.</descricao>
+  </signo>
+  <signo>
+    <nome>Escorpião</nome>
+    <inicio>10-23</inicio>
+    <fim>11-21</fim>
+    <descricao>Intenso, determinado e misterioso, Escorpião é cheio de profundidade.</descricao>
+  </signo>
+  <signo>
+    <nome>Sagitário</nome>
+    <inicio>11-22</inicio>
+    <fim>12-21</fim>
+    <descricao>Otimista, aventureiro e amante da liberdade, Sagitário ama explorar.</descricao>
+  </signo>
+  <signo>
+    <nome>Capricórnio</nome>
+    <inicio>12-22</inicio>
+    <fim>01-19</fim>
+    <descricao>Responsável, ambicioso e determinado, Capricórnio foca em resultados.</descricao>
+  </signo>
+  <signo>
+    <nome>Aquário</nome>
+    <inicio>01-20</inicio>
+    <fim>02-18</fim>
+    <descricao>Independente, criativo e visionário, Aquário pensa fora da caixa.</descricao>
+  </signo>
+  <signo>
+    <nome>Peixes</nome>
+    <inicio>02-19</inicio>
+    <fim>03-20</fim>
+    <descricao>Sensível, intuitivo e sonhador, Peixes vive no mundo das emoções.</descricao>
+  </signo>
+</signos>

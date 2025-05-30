@@ -1,0 +1,213 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Crimson Pro", serif;
+  background-image: url("imagens/back.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+main {
+  flex: 1;
+}
+
+.menu {
+  background-color: #000;
+  padding: 10px 0;
+}
+
+.menu-nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0 40px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.menu-home {
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.menu-nav li:not(.menu-home) {
+  margin-left: 10px;
+  padding: 0 40px;
+}
+
+.menu-outros {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.menu-nav a:hover {
+  background-color: #e6b800;
+}
+
+.container-principal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px;
+  gap: 40px;
+  min-height: calc(100vh - 160px);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.container-principal.ativo {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.coluna-esquerda {
+  flex: 1;
+}
+
+.imagem-signo {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 95%;
+  max-width: 581px;
+  height: auto;
+  margin-left: 100px;
+}
+
+.descricao-signo {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.3rem;
+  color: #ffcc00;
+  text-align: center;
+  min-height: 150px;
+  max-width: 400px;
+  margin-left: 40px;
+}
+
+.descricao-signo h2 {
+  color: #ffcc00;
+  display: flex;
+  flex: 1;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.descricao-signo h3 {
+  display: flex;
+  flex: 1;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.descricao-signo p {
+  font-size: 1.2rem;
+}
+
+.coluna-direita {
+  flex: 1;
+  padding: 10px;
+  margin-right: 110px;
+}
+
+.coluna-direita h1 {
+  font-size: 4rem;
+  color: #ffcc00;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 80px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-group label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 150px;
+  margin-left: 30px;
+  text-align: right;
+}
+
+.form-group input {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  width: 400px;
+  font-family: "Crimson Pro", serif;
+}
+
+.botao-descobrir {
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 300px;
+  margin-top: 15px;
+  padding: 14px 40px;
+}
+
+.botao-descobrir:hover {
+  background-color: #e6b800;
+}
+
+/* Rodapé */
+.rodape {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  background-color: #000;
+  color: #ccc;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .container-principal {
+    flex-direction: column;
+    margin: 20px;
+  }
+  .coluna-esquerda {
+    border-right: none;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 30px;
+  }
+  .coluna-direita {
+    padding-top: 30px;
+  }
+}
+.coluna-direita.resultado {
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
